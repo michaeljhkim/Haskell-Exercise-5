@@ -118,3 +118,4 @@ elem e [] = False
 elem e (x:xs) 
   | (e == x) = True
   | otherwise = elem e xs
+  
